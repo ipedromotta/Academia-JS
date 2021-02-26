@@ -44,7 +44,7 @@ function Mostrar(){
     tab.innerHTML += '<tr><th>Nome</th><th>Idade</th><th>Peso</th><th>Altura</th><th>IMC</th></tr>'
 
     for(i = 0; i < alunos.length; i++){
-        tab.innerHTML += `<tr><td>${alunos[i].nome}</td><td>${alunos[i].idade}</td><td>${alunos[i].peso}</td><td>${alunos[i].altura}</td><td>${alunos[i].imc}</td><td><button onclick="remover(${alunos[i].id})" id="remover">Remover</button></td></tr>`
+        tab.innerHTML += `<tr><td>${alunos[i].nome}</td><td>${alunos[i].idade}</td><td>${alunos[i].peso}</td><td>${alunos[i].altura}</td><td>${alunos[i].imc}</td><td><button onclick="remover('${alunos[i].id}')" id="remover">Remover</button></td></tr>`
     }
     most.value = 'Ocultar'
     most.setAttribute('onclick', 'ocultar()')
