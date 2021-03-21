@@ -1,4 +1,3 @@
-Sistema de cadastro de alunos
 <h1 align="center">
 :muscle:<br>Sistema de cadastro de alunos
 </h1>
